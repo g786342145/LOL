@@ -49,7 +49,7 @@ gulp.task('reload',function (cb){// 自动刷新
 gulp.task('sass',function(){  //sass
     return gulp.src('./sass/*.scss')
     .pipe(load.sass())
-    .pipe(gulp.dest('./dist/sass'))
+    .pipe(gulp.dest('./css'))
     .pipe(load.connect.reload())
 })
 
