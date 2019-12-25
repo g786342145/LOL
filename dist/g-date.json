@@ -1,0 +1,36 @@
+        
+        
+[
+            {"name":"艾欧尼亚" , "state":"拥挤" ,"serial":"电信"},
+            {"name":"祖安" , "state":"正常" ,"serial":"电信"},
+            {"name":"诺克萨斯" , "state":"满载" ,"serial":"电信"},
+            {"name":"班德尔城" , "state":"正常" ,"serial":"电信"},
+            {"name":"皮尔特沃夫" , "state":"正常" ,"serial":"电信"},
+            {"name":"战争学院" , "state":"正常" ,"serial":"电信"},
+            {"name":"巨神峰" , "state":"正常" ,"serial":"电信"},
+            {"name":"雷瑟守备" , "state":"正常" ,"serial":"电信"},
+            {"name":"裁决之地" , "state":"正常" ,"serial":"电信"},
+            {"name":"黑色玫瑰" , "state":"拥挤" ,"serial":"电信"},
+            {"name":"暗影岛" , "state":"正常" ,"serial":"电信"},
+            {"name":"钢铁烈阳" , "state":"正常" ,"serial":"电信"},
+            {"name":"水晶之痕" , "state":"满载" ,"serial":"电信"},
+            {"name":"均衡教派" , "state":"正常" ,"serial":"电信"},
+            {"name":"影流" , "state":"正常" ,"serial":"电信"},
+            {"name":"守望之海" , "state":"正常" ,"serial":"电信"},
+            {"name":"征服之海" , "state":"正常" ,"serial":"电信"},
+            {"name":"卡拉曼达" , "state":"正常" ,"serial":"电信"},
+            {"name":"皮城警备" , "state":"正常" ,"serial":"电信"},
+
+            {"name":"比尔吉沃特" , "state":"满载" ,"serial":"网通"},
+            {"name":"德玛西亚" , "state":"正常" ,"serial":"网通"},
+            {"name":"弗雷尔卓德" , "state":"正常" ,"serial":"网通"},
+            {"name":"无畏先锋" , "state":"正常" ,"serial":"网通"},
+            {"name":"恕瑞玛" , "state":"正常" ,"serial":"网通"},
+            {"name":"扭曲丛林" , "state":"正常" ,"serial":"网通"},
+            {"name":"巨龙之巢" , "state":"正常" ,"serial":"网通"},
+
+            {"name":"教育网专区" , "state":"维护" ,"serial":"其他"},
+            {"name":"男爵领域" , "state":"拥挤" ,"serial":"其他"}
+        ]
+    
+    

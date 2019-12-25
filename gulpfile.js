@@ -42,7 +42,8 @@ gulp.task('imagemin',function (){//压缩图片
 gulp.task('reload',function (cb){// 自动刷新
     load.connect.server({
         root: './dist',//根目录
-        livereload: true
+        livereload: true,
+        // host:'0.0.0.0'
     });
     cb();
 })
@@ -54,11 +55,11 @@ gulp.task('sass',function(){  //sass
 })
 
 gulp.task('watchs',function (cb){
+    gulp.watch('./sass/*.scss',gulp.series('sass'));
     gulp.watch('./css/*.css',gulp.series('concatCss'));
     gulp.watch('./js/*.js',gulp.series('concatJs'));
     gulp.watch('./*.html',gulp.series('minifyHtml'));
     gulp.watch('./img/*.*',gulp.series('imagemin'));
-    gulp.watch('./sass/*.scss',gulp.series('sass'));
     cb();
 })
 
