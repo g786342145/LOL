@@ -65,7 +65,7 @@ gulp.task('watchs',function (cb){
 gulp.task('start',gulp.series('reload','watchs'));
 
 gulp.task('build',gulp.parallel(// 打包
-    gulp.series('concatCss'),
+    gulp.series('sass','concatCss'),
     gulp.series('concatJs','uglifyJq'),
     gulp.series('minifyHtml'),
     gulp.series('imagemin')
