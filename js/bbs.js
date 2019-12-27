@@ -16,14 +16,14 @@ window.onscroll = function(){
     }
 }
 var timer = '';
-var lb = '';
-var i = 1
 function move(){
     clearInterval(timer);
     g2Crs.scrollLeft += 5;
     
     timer = setInterval(function(){
         var speed = 5;
+        // console.log(g2Crs.scrollLeft)
+        
         if(g2Crs.scrollLeft%g2Imgs[0].offsetWidth == 0){
             clearInterval(timer);
             // g2Crs.scrollLeft = 640;
@@ -31,7 +31,6 @@ function move(){
                 g2Crs.scrollLeft = 0
             }
             
-            i = i + 1;
         }else{
             g2Crs.scrollLeft += speed;
             
@@ -40,6 +39,8 @@ function move(){
 }
 function lbt(){
     setInterval(function(){
+        console.log(g2Crs.scrollLeft);
+        
         move()
     },3500)
 }
