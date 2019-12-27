@@ -43,7 +43,11 @@ gulp.task('reload',function (cb){// 自动刷新
     load.connect.server({
         root: './dist',//根目录
         livereload: true,
+<<<<<<< HEAD
         host:'0.0.0.0'
+=======
+        host:'::'
+>>>>>>> 5bc1c91e99871d847d66b31c0ca258f6a76a4aed
     });
     cb();
 })
@@ -66,7 +70,7 @@ gulp.task('watchs',function (cb){
 gulp.task('start',gulp.series('reload','watchs'));
 
 gulp.task('build',gulp.parallel(// 打包
-    gulp.series('concatCss'),
+    gulp.series('sass','concatCss'),
     gulp.series('concatJs','uglifyJq'),
     gulp.series('minifyHtml'),
     gulp.series('imagemin')

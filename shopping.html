@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shopping</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">  
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">  
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        img{
+            display: block;
+        }
+        .swiper-container {
+            min-width: 1240px;
+            min-height: 424px;
+        }  
+        .swiper-container img{
+            min-width: 1240px;
+            min-height: 424px;
+            width:100%;
+        } 
+        .c-shopping-ipt{
+            width:auto
+        } 
+        .c-shopping-search{
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <img src='img/shopping/c-shopping-header.png'>
+    <!-- <img src='img/shopping/c-shopping2.png'>
+    <input type="text" placeholder='阿狸' class='c-shopping-ipt'>
+    <button class='c-shopping-search'><img src='img/shopping/c-shopping-search.png'> </button> -->
+    <div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src='img/shopping/c-banner1.jpg'></div>
+                <div class="swiper-slide"><img src='img/shopping/c-banner2.jpg'></div>
+                <div class="swiper-slide"><img src='img/shopping/c-banner3.jpg'></div>
+                <div class="swiper-slide"><img src='img/shopping/c-banner4.jpg'></div>
+            </div>
+            <!-- 如果需要分页器 -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <img src='img/shopping/c-bottom.png'>
+    <script src="https://unpkg.com/swiper/js/swiper.js"> </script>  
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"> </script>
+    <script>        
+        var mySwiper = new Swiper ('.swiper-container', {
+          direction: 'horizontal', // 垂直切换选项
+          loop: true, // 循环模式选项
+          autoplay:true,
+          
+          // 如果需要分页器
+          pagination: {
+            el: '.swiper-pagination',
+            clickable:true
+          }
+        })        
+    </script>
+</body>
+</html>
