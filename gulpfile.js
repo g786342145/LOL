@@ -11,7 +11,7 @@ gulp.task('concatCss',function (){//合并压缩css
 gulp.task('concatJs',function (){//合并压缩js
     return gulp.src(['./js/*.js','!./js/jquery*.js'])
     .pipe(load.babel({presets: ['@babel/preset-env']}))
-    .pipe(load.concat('index.js'))
+    // .pipe(load.concat('index.js'))
     .pipe(load.uglify())
     .pipe(gulp.dest('./dist/js'))
     .pipe(load.connect.reload())
@@ -43,7 +43,7 @@ gulp.task('reload',function (cb){// 自动刷新
     load.connect.server({
         root: './dist',//根目录
         livereload: true,
-        // host:'0.0.0.0'
+        host:'0.0.0.0'
     });
     cb();
 })
