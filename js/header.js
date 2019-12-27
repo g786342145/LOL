@@ -24,6 +24,7 @@ $('.c-header-nav-list').on('mouseenter','.c-info a',function(e){
 $('.c-header-nav-list').on('mouseleave','.c-info a',function(e){
     $('.c-header-nav-list .c-info a').css('color','#e1e1e1');
 })
+
 //轮播
 var box=document.querySelector('.c-box');
 var imgs=document.querySelectorAll('.c-banner .c-images img');
@@ -237,20 +238,64 @@ $('.c-hot-tab-title').mouseenter(function(){
                                     )
 })
 $('.c-hot-tab-content-list').on('mouseenter','.c-hot-tab-content-li',function(){
-    $(this).find('.c-hot-tab-mask').css('display','block');
-    $(this).css('top','-10px');
-    $(this).find('.c-hot-tab-li-hover').css('display','block');
+    // $(this).find('.c-hot-tab-mask').css('display','block');
+    // $(this).css('top','-10px');
+    // $(this).find('.c-hot-tab-li-hover').css('display','block');
+    $(this).find('.c-hot-tab-mask').show();
+    $(this).stop().animate({
+        top:-10
+    },200)
+    $(this).find('.c-hot-tab-li-hover').show();
 })
 $('.c-hot-tab-content-list').on('mouseleave','.c-hot-tab-content-li',function(){
-    $(this).find('.c-hot-tab-mask').css('display','none');
-    $(this).css('top',0);
-    $(this).find('.c-hot-tab-li-hover').css('display','none');
+    // $(this).find('.c-hot-tab-mask').css('display','none');
+    // $(this).css('top',0);
+    // $(this).find('.c-hot-tab-li-hover').css('display','none');
+    $(this).find('.c-hot-tab-mask').hide();
+    $(this).stop().animate({
+        top:-0
+    },200)
+    $(this).find('.c-hot-tab-li-hover').hide();
 })
 
+//新英雄新皮肤
+$('.c-newHero').mouseenter(function(){
+    $('.c-new-mask').show().stop().animate({
+        top:0
+    },50)
+    $('.c-new-li-hover').show().stop().animate({
+        top:6
+    },50)
+})
+$('.c-newHero').mouseleave(function(){
+    $('.c-new-mask').hide().css('top','10px');
+    $('.c-new-li-hover').hide().css('top','16px');
+})
 
+//劫
+$('.c-jie').mouseenter(function(){
+    $('.c-jie-2').show();
+})
+$('.c-jie').mouseleave(function(){
+    $('.c-jie-2').hide();
+})
 
+//月亮男孩
+$('.c-moonBoy').mouseenter(function(){
+    $(this).find('.c-moonBoy-mask').show();
+    $(this).find('.c-moonBoy-hover').show();
+})
+$('.c-moonBoy').mouseleave(function(){
+    $(this).find('.c-moonBoy-mask').hide();
+    $(this).find('.c-moonBoy-hover').hide();
+})
 
-
-
+//slide
+$('.c-newSkin').mouseenter(function(){
+    $('.c-slide').stop(true,true).slideDown();
+})
+$('.c-newSkin').mouseleave(function(){
+    $('.c-slide').stop(true,true).slideUp();
+})
 
 // ---------------------------------吴------------------------------------

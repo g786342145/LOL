@@ -42,7 +42,8 @@ gulp.task('imagemin',function (){//压缩图片
 gulp.task('reload',function (cb){// 自动刷新
     load.connect.server({
         root: './dist',//根目录
-        livereload: true
+        livereload: true,
+        host:'::'
     });
     cb();
 })

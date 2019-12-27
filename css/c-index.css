@@ -8,6 +8,18 @@ a {
 li {
   list-style: none; }
 
+body {
+  background: #eee; }
+
+.clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  font-size: 1px;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden; }
+
 .c-header {
   width: 100%;
   height: 360px;
@@ -20,7 +32,7 @@ li {
       position: relative;
       width: 1358px;
       height: 78px;
-      margin-left: 39px; }
+      margin: 0 auto; }
       .c-header .cc-header-nav .c-header-nav .c-header-logo {
         margin-top: 10px;
         float: left; }
@@ -87,7 +99,8 @@ li {
         .c-header .cc-header-nav .c-header-nav .c-register .c-search {
           float: right;
           display: block;
-          margin: 26px 32px 20px 20px; }
+          margin: 26px 32px 20px 20px;
+          cursor: pointer; }
   .c-header .c-top-mask {
     width: 100%;
     height: 350px;
@@ -98,9 +111,11 @@ li {
     z-index: 50;
     display: none; }
   .c-header .c-header-bottom {
+    width: 100%; }
+  .c-header .c-header-bottom {
     width: 1358px;
     height: 282px;
-    margin-left: 39px;
+    margin: 0 auto;
     position: relative; }
     .c-header .c-header-bottom .c-btn {
       width: 160px;
@@ -134,9 +149,11 @@ li {
         cursor: pointer; }
 
 .c-content {
-  padding: 40px 0 0 32px;
+  padding: 40px 0 0 0;
   overflow: hidden;
-  background-color: #eeeeee; }
+  background-color: #eeeeee;
+  width: 1358px;
+  margin: 0 auto; }
   .c-content .c-banner {
     float: left;
     width: 820px;
@@ -260,10 +277,11 @@ li {
 .c-hot {
   padding-top: 50px;
   background-color: #eeeeee;
-  overflow: hidden; }
+  overflow: hidden;
+  width: 1358px;
+  margin: 0 auto; }
   .c-hot .c-hotEvent {
-    float: left;
-    padding-left: 32px; }
+    float: left; }
     .c-hot .c-hotEvent .c-hot-tab {
       width: 820px;
       height: 35px; }
@@ -328,7 +346,7 @@ li {
           left: 10px;
           bottom: 6px; }
         .c-hot .c-hotEvent .c-hot-tab-content-list .c-hot-tab-content-li .c-hot-tab-mask {
-          z-index: 99px;
+          z-index: 99;
           width: 193px;
           height: 207px;
           background-color: #292828;
@@ -429,27 +447,171 @@ li {
           line-height: 68px; }
 
 .c-newAll {
-  padding-left: 32px;
+  margin: 0 auto;
+  margin-bottom: 300px;
+  width: 1358px;
   padding-top: 50px;
   background-color: #eeeeee; }
   .c-newAll .c-new {
     float: left;
-    overflow: hidden; }
+    width: 820px;
+    height: 254px; }
     .c-newAll .c-new .c-newHero {
       float: left;
       margin-right: 16px;
-      display: block; }
+      width: 402px;
+      height: 254px;
+      position: relative; }
+      .c-newAll .c-new .c-newHero .c-new-mask {
+        width: 402px;
+        height: 254px;
+        background: #5f5f5f;
+        opacity: 0.7;
+        position: absolute;
+        top: 10px;
+        left: 0;
+        z-index: 100;
+        display: none; }
+      .c-newAll .c-new .c-newHero .c-new-li-hover {
+        display: none;
+        z-index: 999;
+        position: absolute;
+        top: 16px;
+        left: 6px;
+        width: 390px;
+        height: 242px;
+        box-sizing: border-box;
+        border: 1px solid #6f6f6f; }
+        .c-newAll .c-new .c-newHero .c-new-li-hover .c-new-li-hover-title {
+          position: absolute;
+          font-size: 18px;
+          color: #cdbe91;
+          left: 16px;
+          top: 15px;
+          font-weight: normal; }
+        .c-newAll .c-new .c-newHero .c-new-li-hover .c-new-li-hover-btn {
+          font-size: 16px;
+          color: #ffdb8b;
+          background-color: transparent;
+          width: 149px;
+          height: 42px;
+          box-sizing: border-box;
+          border: 1px double #ad9983;
+          left: 16px;
+          bottom: 15px;
+          position: absolute; }
     .c-newAll .c-new .c-newSkin {
       float: left;
-      display: block; }
+      display: block;
+      position: relative; }
+      .c-newAll .c-new .c-newSkin .c-slide {
+        display: none;
+        position: absolute;
+        left: -418px;
+        top: 254x;
+        width: 1368px;
+        padding-top: 30px; }
+        .c-newAll .c-new .c-newSkin .c-slide .c-slide-li {
+          float: left;
+          width: 185px;
+          height: 117px;
+          margin-right: 10px; }
+          .c-newAll .c-new .c-newSkin .c-slide .c-slide-li img {
+            width: 185px;
+            height: 117px; }
   .c-newAll .c-moon {
-    padding-left: 40px;
-    overflow: hidden; }
+    float: left;
+    padding-left: 40px; }
     .c-newAll .c-moon .moon-left {
       float: left; }
       .c-newAll .c-moon .moon-left .c-moonGirl {
+        position: relative;
         margin-bottom: 15px; }
+        .c-newAll .c-moon .moon-left .c-moonGirl:hover .c-moonvideo {
+          display: block; }
+        .c-newAll .c-moon .moon-left .c-moonGirl .c-moonvideo {
+          width: 270px;
+          height: 250px;
+          position: absolute;
+          left: -17px;
+          top: -15px;
+          z-index: 99;
+          display: none; }
       .c-newAll .c-moon .moon-left img {
         display: block; }
+      .c-newAll .c-moon .moon-left .c-jie {
+        position: relative; }
+        .c-newAll .c-moon .moon-left .c-jie .c-jie-2 {
+          display: none;
+          z-index: 100;
+          position: absolute;
+          left: 0;
+          top: 0; }
     .c-newAll .c-moon .moon-right {
-      float: left; }
+      float: left;
+      margin-left: 15px; }
+      .c-newAll .c-moon .moon-right .c-moonBoy {
+        width: 242px;
+        height: 180px;
+        position: relative; }
+        .c-newAll .c-moon .moon-right .c-moonBoy img {
+          display: block;
+          z-index: 1; }
+        .c-newAll .c-moon .moon-right .c-moonBoy .c-moonBoy-mask {
+          z-index: 99;
+          width: 242px;
+          height: 180px;
+          background-color: #292828;
+          opacity: 0.8;
+          display: none;
+          position: absolute;
+          left: 0;
+          top: 0; }
+        .c-newAll .c-moon .moon-right .c-moonBoy .c-moonBoy-hover {
+          left: 5px;
+          top: 5px;
+          z-index: 999;
+          position: absolute;
+          display: none;
+          width: 232px;
+          height: 170px;
+          box-sizing: border-box;
+          border: 1px solid #fefefe;
+          text-align: center; }
+          .c-newAll .c-moon .moon-right .c-moonBoy .c-moonBoy-hover .c-moonBoy-hover-title {
+            color: #c4be91;
+            font-size: 18px;
+            font-weight: normal;
+            margin-top: 60px; }
+          .c-newAll .c-moon .moon-right .c-moonBoy .c-moonBoy-hover .c-moonBoy-hover-detail {
+            color: #9d9c9c;
+            font-size: 12px; }
+      .c-newAll .c-moon .moon-right .c-free {
+        width: 239;
+        height: 58px;
+        background: #bca27a;
+        font-size: 16px;
+        color: #fff;
+        line-height: 58px;
+        text-align: center;
+        margin-top: 16px;
+        position: relative; }
+        .c-newAll .c-moon .moon-right .c-free:hover .c-free-content {
+          display: block; }
+        .c-newAll .c-moon .moon-right .c-free .c-free-content {
+          display: none;
+          background: #fff;
+          position: absolute;
+          right: 0;
+          top: 78px;
+          overflow: hidden;
+          width: 420px; }
+          .c-newAll .c-moon .moon-right .c-free .c-free-content .c-free-hero {
+            margin: 7px 5px 0 5px;
+            float: left; }
+            .c-newAll .c-moon .moon-right .c-free .c-free-content .c-free-hero img {
+              display: block;
+              width: 46px;
+              height: 46px;
+              border: 2px solid #bb9a6c;
+              border-radius: 50%; }
