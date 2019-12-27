@@ -1,0 +1,92 @@
+.g2-big {
+  background: url("./../img/g2 (1).jpg");
+  background-size: 100%; }
+  .g2-big .g2-top {
+    width: 100%; }
+    .g2-big .g2-top img {
+      width: 100%;
+      display: block; }
+    .g2-big .g2-top .g2-up {
+      height: 90px;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.92);
+      position: fixed;
+      top: 0; }
+      .g2-big .g2-top .g2-up .g2-upc {
+        width: 1200px;
+        height: 90px;
+        margin: 0 auto; }
+        .g2-big .g2-top .g2-up .g2-upc .g2-upleft {
+          display: block;
+          float: left; }
+          .g2-big .g2-top .g2-up .g2-upc .g2-upleft img {
+            width: 350px;
+            height: 90px;
+            margin-top: 10px; }
+        .g2-big .g2-top .g2-up .g2-upc .g2-us {
+          float: right;
+          padding: 16px 0; }
+          .g2-big .g2-top .g2-up .g2-upc .g2-us img {
+            width: 58px;
+            height: 58px; }
+        .g2-big .g2-top .g2-up .g2-upc .g2-upright {
+          float: right;
+          list-style: none; }
+          .g2-big .g2-top .g2-up .g2-upc .g2-upright .g2-block:hover .g2-none {
+            display: block; }
+          .g2-big .g2-top .g2-up .g2-upc .g2-upright li {
+            height: 50px;
+            padding: 20px 30px;
+            float: left;
+            position: relative; }
+            .g2-big .g2-top .g2-up .g2-upc .g2-upright li:hover {
+              height: 48px;
+              border-bottom: 2px solid #d0ac5c; }
+            .g2-big .g2-top .g2-up .g2-upc .g2-upright li:hover .g2-col {
+              color: #d0ac5c; }
+            .g2-big .g2-top .g2-up .g2-upc .g2-upright li a {
+              text-decoration: none;
+              font-size: 16px;
+              line-height: 30px;
+              color: #fff;
+              text-align: center; }
+              .g2-big .g2-top .g2-up .g2-upc .g2-upright li a p {
+                font-size: 12px;
+                color: #4a4a4a;
+                line-height: 20px; }
+            .g2-big .g2-top .g2-up .g2-upc .g2-upright li .g2-none {
+              position: absolute;
+              width: 381px;
+              list-style: none;
+              background-color: rgba(0, 0, 0, 0.88);
+              top: 90px;
+              left: 0;
+              padding: 30px 0;
+              display: none; }
+              .g2-big .g2-top .g2-up .g2-upc .g2-upright li .g2-none span {
+                display: block;
+                float: left;
+                padding: 20px 5px;
+                width: 180px;
+                height: 50px;
+                text-align: center; }
+                .g2-big .g2-top .g2-up .g2-upc .g2-upright li .g2-none span:hover a {
+                  color: #d0ac5c; }
+  .g2-big .g2-main {
+    width: 1200px;
+    height: 1000px;
+    margin: 40px auto 0; }
+    .g2-big .g2-main .g2-crs {
+      height: 400px;
+      width: 640px;
+      overflow: hidden;
+      float: left;
+      position: relative; }
+      .g2-big .g2-main .g2-crs .g2-imgs {
+        height: 400px;
+        width: 5000px; }
+        .g2-big .g2-main .g2-crs .g2-imgs img {
+          height: 400px;
+          width: 640px;
+          display: block;
+          float: left; }

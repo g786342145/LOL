@@ -11,7 +11,7 @@ gulp.task('concatCss',function (){//合并压缩css
 gulp.task('concatJs',function (){//合并压缩js
     return gulp.src(['./js/*.js','!./js/jquery*.js'])
     .pipe(load.babel({presets: ['@babel/preset-env']}))
-    .pipe(load.concat('index.js'))
+    // .pipe(load.concat('index.js'))
     .pipe(load.uglify())
     .pipe(gulp.dest('./dist/js'))
     .pipe(load.connect.reload())
@@ -55,18 +55,18 @@ gulp.task('sass',function(){  //sass
 })
 
 gulp.task('watchs',function (cb){
+    gulp.watch('./sass/*.scss',gulp.series('sass'));
     gulp.watch('./css/*.css',gulp.series('concatCss'));
     gulp.watch('./js/*.js',gulp.series('concatJs'));
     gulp.watch('./*.html',gulp.series('minifyHtml'));
     gulp.watch('./img/*.*',gulp.series('imagemin'));
-    gulp.watch('./sass/*.scss',gulp.series('sass'));
     cb();
 })
 
 gulp.task('start',gulp.series('reload','watchs'));
 
 gulp.task('build',gulp.parallel(// 打包
-    gulp.series('concatCss'),
+    gulp.series('sass','concatCss'),
     gulp.series('concatJs','uglifyJq'),
     gulp.series('minifyHtml'),
     gulp.series('imagemin')

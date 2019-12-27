@@ -597,3 +597,231 @@ html {
     margin: 20px auto 0; }
   .w-pbbig .hidde .hidde {
     display: none; }
+
+.g-font {
+  font-size: 14px;
+  color: #59e4ff; }
+
+.g-col1 {
+  color: #3dc87e !important; }
+
+.g-col2 {
+  color: #ee9230 !important; }
+
+.g-col3 {
+  color: #ed4949 !important; }
+
+.g-col4 {
+  color: #9d9d9d !important; }
+
+html .g-body {
+  background-color: #101526; }
+  html .g-body .g-big {
+    width: 100%;
+    background: url("../img/g (3).jpg") no-repeat 50% 0;
+    overflow: hidden; }
+    html .g-body .g-big .g-min {
+      width: 1000px;
+      margin: 0 auto; }
+      html .g-body .g-big .g-min .g-minTop {
+        background: url("../img/g (2).jpg") no-repeat 50% 0;
+        height: 570px;
+        text-align: center;
+        overflow: hidden;
+        position: relative; }
+        html .g-body .g-big .g-min .g-minTop .g-titTop {
+          font-size: 16px;
+          color: #69f1ff;
+          margin-top: 497px;
+          font-weight: normal; }
+        html .g-body .g-big .g-min .g-minTop .g-idx {
+          display: block;
+          position: absolute;
+          top: 10px;
+          left: 10px; }
+      html .g-body .g-big .g-min .g-minCenter {
+        background: url("../img/g (1).jpg") no-repeat 50% 0;
+        min-height: 500px;
+        margin-top: -1px;
+        box-sizing: border-box;
+        padding: 0 22px; }
+        html .g-body .g-big .g-min .g-minCenter .g-cTop {
+          height: 114px;
+          width: 100%; }
+          html .g-body .g-big .g-min .g-minCenter .g-cTop .g-f1 {
+            float: left; }
+            html .g-body .g-big .g-min .g-minCenter .g-cTop .g-f1 #g-f1b {
+              width: 142px;
+              height: 25px;
+              padding-left: 20px;
+              background-color: transparent;
+              border: #1c6070 1px solid;
+              margin-top: 11px; }
+              html .g-body .g-big .g-min .g-minCenter .g-cTop .g-f1 #g-f1b .g-f1b1 {
+                display: block;
+                float: left;
+                width: 116px;
+                height: 25px;
+                font-size: 12px;
+                line-height: 25px;
+                color: #3f9ab0; }
+              html .g-body .g-big .g-min .g-minCenter .g-cTop .g-f1 #g-f1b .g-f1b2 {
+                display: block;
+                float: right;
+                width: 25px;
+                height: 25px;
+                background: url("./../img/g (1).png") -987px -377px; }
+            html .g-body .g-big .g-min .g-minCenter .g-cTop .g-f1 .g-f1c {
+              list-style: none;
+              background-color: #369ab1;
+              width: 162px;
+              display: none;
+              position: absolute; }
+              html .g-body .g-big .g-min .g-minCenter .g-cTop .g-f1 .g-f1c .g-f1c1 {
+                height: 25px;
+                font-size: 12px;
+                line-height: 25px;
+                padding-left: 20px; }
+              html .g-body .g-big .g-min .g-minCenter .g-cTop .g-f1 .g-f1c .g-f1c1:hover {
+                background-color: #59e4ff; }
+          html .g-body .g-big .g-min .g-minCenter .g-cTop .g-f2 {
+            float: left;
+            margin-left: 14px;
+            width: 330px; }
+            html .g-body .g-big .g-min .g-minCenter .g-cTop .g-f2 .g-f2a {
+              height: 36px; }
+              html .g-body .g-big .g-min .g-minCenter .g-cTop .g-f2 .g-f2a .g-ipt {
+                float: left;
+                display: block;
+                box-sizing: content-box;
+                width: 156px;
+                height: 16px;
+                padding: 4px;
+                margin-top: 11px;
+                border: 1px solid #1c6070;
+                color: #3f9ab0;
+                background-color: transparent; }
+              html .g-body .g-big .g-min .g-minCenter .g-cTop .g-f2 .g-f2a .g-seach {
+                display: block;
+                width: 61px;
+                height: 35px;
+                padding-left: 17px;
+                margin: 2px 0 0 5px;
+                float: left;
+                line-height: 38px;
+                background: url("./../img/g (1).png") -908px -377px;
+                cursor: pointer; }
+            html .g-body .g-big .g-min .g-minCenter .g-cTop .g-f2 .g-reset {
+              display: block;
+              width: 61px;
+              height: 35px;
+              padding-left: 17px;
+              margin: 22px 0 0 171px;
+              line-height: 38px;
+              background: url("./../img/g (1).png") -908px -377px;
+              cursor: pointer; }
+          html .g-body .g-big .g-min .g-minCenter .g-cTop .g-f3 {
+            float: left;
+            width: 296px;
+            height: 58px;
+            margin-left: 25px; }
+            html .g-body .g-big .g-min .g-minCenter .g-cTop .g-f3 .g-schedule {
+              float: left;
+              width: 81px;
+              margin-top: 37px; }
+              html .g-body .g-big .g-min .g-minCenter .g-cTop .g-f3 .g-schedule .g-she {
+                display: block;
+                background: url("./../img/g (1).png") no-repeat -908px -442px;
+                width: 20px;
+                height: 19px;
+                float: left;
+                margin-right: 5px; }
+            html .g-body .g-big .g-min .g-minCenter .g-cTop .g-f3 .g-time {
+              float: left;
+              width: 120px;
+              height: 25px;
+              border: 1px solid #1c6070;
+              font-size: 12px;
+              line-height: 25px;
+              color: #3f9ab0;
+              text-align: center;
+              margin: 31px 0 0 10px; }
+            html .g-body .g-big .g-min .g-minCenter .g-cTop .g-f3 .g-refresh {
+              float: left;
+              width: 61px;
+              height: 35px;
+              padding-left: 17px;
+              background: url("./../img/g (1).png") -908px -377px;
+              margin: 22px 0 0 5px;
+              line-height: 38px;
+              border-top-right-radius: 8px;
+              cursor: pointer; }
+        html .g-body .g-big .g-min .g-minCenter .g-main .g-tcm {
+          width: 185px;
+          height: 44px;
+          background: url("./../img/g (2).png") no-repeat 0 0;
+          padding: 27px 0 0 87px;
+          font-size: 26px;
+          font-weight: normal;
+          margin-top: 35px;
+          color: #59e4ff; }
+        html .g-body .g-big .g-min .g-minCenter .g-main .g-tab {
+          margin-top: 18px; }
+          html .g-body .g-big .g-min .g-minCenter .g-main .g-tab .g-tab1 {
+            border-collapse: collapse;
+            border-spacing: 0;
+            font-family: "microsoft yahei";
+            width: 100%;
+            border: #2e4267 1px solid; }
+            html .g-body .g-big .g-min .g-minCenter .g-main .g-tab .g-tab1 thead tr th {
+              height: 42px;
+              font-size: 16px;
+              color: #59e4ff;
+              text-align: center;
+              background-color: rgba(53, 87, 132, 0.6);
+              font-weight: none; }
+            html .g-body .g-big .g-min .g-minCenter .g-main .g-tab .g-tab1 tbody tr td {
+              color: #7ba7dd;
+              height: 38px;
+              text-align: center;
+              font-size: 14px; }
+            html .g-body .g-big .g-min .g-minCenter .g-main .g-tab .g-tab1 tbody tr .g-bar {
+              font-style: normal; }
+            html .g-body .g-big .g-min .g-minCenter .g-main .g-tab .g-tab1 tbody .g-bgc1 {
+              background-color: #181f32; }
+            html .g-body .g-big .g-min .g-minCenter .g-main .g-tab .g-tab1 .g-bor1 {
+              border-right: 1px solid #24334e; }
+        html .g-body .g-big .g-min .g-minCenter .g-main .g-cnt {
+          width: 185px;
+          height: 44px;
+          background: url("./../img/g (2).png") no-repeat 0 -91px;
+          padding: 27px 0 0 87px;
+          font-size: 26px;
+          font-weight: normal;
+          margin-top: 35px;
+          color: #59e4ff; }
+        html .g-body .g-big .g-min .g-minCenter .g-main .g-oth {
+          width: 185px;
+          height: 44px;
+          background: url("./../img/g (2).png") no-repeat 0 -183px;
+          padding: 27px 0 0 87px;
+          font-size: 26px;
+          font-weight: normal;
+          margin-top: 35px;
+          color: #59e4ff; }
+        html .g-body .g-big .g-min .g-minCenter .g-main .atn {
+          font-size: 26px;
+          color: #4edfff;
+          margin-top: 40px;
+          font-weight: normal; }
+        html .g-body .g-big .g-min .g-minCenter .g-main .g-lis {
+          list-style: none; }
+          html .g-body .g-big .g-min .g-minCenter .g-main .g-lis li {
+            margin-top: 18px;
+            font-size: 14px;
+            width: 100%; }
+            html .g-body .g-big .g-min .g-minCenter .g-main .g-lis li .g-explain {
+              font-style: normal; }
+            html .g-body .g-big .g-min .g-minCenter .g-main .g-lis li .g-eln {
+              color: #6485a0;
+              line-height: 26px; }
